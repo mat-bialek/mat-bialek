@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-I'm Mateusz Olejarz, hard-working and self-motivated computer science student with a passion for tailored solutions with nearly two years of commercial experience in JavaScript and React. 
+I'm Mateusz Olejarz, hard-working, self-motivated computer science student with a passion for tailored solutions and nearly two years of commercial experience in JavaScript and React
 
 <a name="tech-tools"></a>
 
