@@ -2,6 +2,8 @@
 
 I'm Mateusz Olejarz, hard-working and self-motivated computer science student with a passion for tailored solutions with nearly two years of commercial experience in JavaScript and React. 
 
+<a name="tech-tools"></a>
+
 ## Contact
 
 [<img src="https://img.shields.io/badge/Portfolio%20-%23121011?logo=react" alt="React logo" title="Portfolio" height="25" />](https://mateuszolejarz.com/)
@@ -11,7 +13,7 @@ I'm Mateusz Olejarz, hard-working and self-motivated computer science student wi
 
 ## Technologies and tools
 
-<a name="tech-tools"></a>
+<a name="learning-improving"></a>
 
 [<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor]
 [<img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />][tech_tools_anchor]
@@ -37,8 +39,6 @@ I'm Mateusz Olejarz, hard-working and self-motivated computer science student wi
 [<img src="https://img.shields.io/badge/Storybook-282C34?logo=storybook" alt="Storybook logo" title="Storybook" height="25" />][tech_tools_anchor]
 
 ## Currently learning / improving
-
-<a name="learning-improving"></a>
 
 [<img src="https://img.shields.io/badge/React%20Native-282C34?logo=react" alt="React Native logo" title="React Native" height="25" />][learning_improving_anchor]
 [<img src="https://img.shields.io/badge/Redux%20Toolkit-282C34?logo=redux&logoColor=%237248b6" alt="Redux Toolkit logo" title="Redux Toolkit" height="25" />][learning_improving_anchor]
