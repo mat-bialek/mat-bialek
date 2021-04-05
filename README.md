@@ -6,7 +6,6 @@ I'm Mateusz Olejarz, hard-working, self-motivated computer science student with 
 
 ## Contact
 
-[<img src="https://img.shields.io/badge/Portfolio%20-%23121011?logo=react" alt="React logo" title="Portfolio" height="25" />](https://mateuszolejarz.com/)
 [<img src="https://img.shields.io/badge/Github%20-%23121011?logo=github" alt="Github logo" title="Github" height="25" />](https://github.com/mateusz-olejarz)
 [<img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Gmail logo" title="Email" height="25" />](mailto:mateusz.d.olejarz@gmail.com)
 [<img src="https://img.shields.io/badge/LinkedIn%20-%230077B5?logo=linkedin" alt="LinkedIn logo" title="LinkedIn" height="25" />](https://linkedin.com/in/mat-olejarz)
