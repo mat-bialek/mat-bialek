@@ -4,7 +4,7 @@
 
 
 ### About Me
-My name is [Mateusz Olejarz](https://github.com/mateusz-olejarz), I'm a hard-working, self-motivated computer science student with a passion for tailored solutions and nearly two years of commercial experience in JavaScript and **React**. 
+My name is [Mateusz](https://github.com/mateusz-olejarz), I'm a hard-working, self-motivated computer science student with a passion for tailored solutions and nearly two years of commercial experience in JavaScript and **React**. 
 
 <br />
 
