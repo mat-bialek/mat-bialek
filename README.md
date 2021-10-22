@@ -19,7 +19,6 @@ My name is [Mateusz Olejarz](https://github.com/mateusz-olejarz), I'm a hard-wor
 ### Technologies and tools
 
 [<img src="https://img.shields.io/badge/TypeScript-E76F51?style=for-the-badge&logo=typescript&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/TypeScript-E76F51?style=for-the-badge&logo=typescript&logoColor=white" alt="" />]()
 [<img src="https://img.shields.io/badge/React-E05A7C?style=for-the-badge&logo=react&logoColor=white" alt="" />]()
 [<img src="https://img.shields.io/badge/Redux-BA5BA4?style=for-the-badge&logo=redux&logoColor=whitee" alt="" />]()
 <br />
