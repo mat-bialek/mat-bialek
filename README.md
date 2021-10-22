@@ -18,16 +18,18 @@ My name is [Mateusz](https://github.com/mateusz-olejarz), I'm a hard-working, se
 
 ### Technologies and tools
 
-[<img src="https://img.shields.io/badge/TypeScript-E76F51?style=for-the-badge&logo=typescript&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/React-E05A7C?style=for-the-badge&logo=react&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/Redux-BA5BA4?style=for-the-badge&logo=redux&logoColor=whitee" alt="" />]()
+<a name="tech-tools"></a>
+
+[<img src="https://img.shields.io/badge/TypeScript-E76F51?style=for-the-badge&logo=typescript&logoColor=white" alt="" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/React-E05A7C?style=for-the-badge&logo=react&logoColor=white" alt="" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/Redux-BA5BA4?style=for-the-badge&logo=redux&logoColor=whitee" alt="" />][tech_tools_anchor]
 <br />
-[<img src="https://img.shields.io/badge/Jest-D15B75?style=for-the-badge&logo=jest&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/Cypress-A5588A?style=for-the-badge&logo=cypress&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/Jenkins-70598B?style=for-the-badge&logo=jenkins&logoColor=white" alt="" />]()
+[<img src="https://img.shields.io/badge/Jest-D15B75?style=for-the-badge&logo=jest&logoColor=white" alt="" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/Cypress-A5588A?style=for-the-badge&logo=cypress&logoColor=white" alt="" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/Jenkins-70598B?style=for-the-badge&logo=jenkins&logoColor=white" alt="" />][tech_tools_anchor]
 <br />
-[<img src="https://img.shields.io/badge/Firebase-70598B?style=for-the-badge&logo=firebase&logoColor=white" alt="" />]()
-[<img src="https://img.shields.io/badge/AWS-4B4453?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="" />]()
+[<img src="https://img.shields.io/badge/Firebase-70598B?style=for-the-badge&logo=firebase&logoColor=white" alt="" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/AWS-4B4453?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="" />][tech_tools_anchor]
 
 &nbsp;
 
@@ -37,3 +39,5 @@ My name is [Mateusz](https://github.com/mateusz-olejarz), I'm a hard-working, se
 - Reading
 - Animated films
 - Drawing, sketching
+
+[tech_tools_anchor]: #tech-tools
