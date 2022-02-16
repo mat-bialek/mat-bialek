@@ -37,7 +37,7 @@ My name is [Mateusz](https://github.com/mateusz-olejarz), I'm a hard-working, se
 
 - Cats
 - Reading
-- Animated films
+- Animated movies
 - Drawing, sketching
 
 [tech_tools_anchor]: #tech-tools
