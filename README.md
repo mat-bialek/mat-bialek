@@ -12,6 +12,7 @@ My name is [Mateusz](https://github.com/mateusz-olejarz), I'm a hard-working, se
 [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="" />](mailto:mateusz.d.olejarz@gmail.com)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="" />](https://linkedin.com/in/mat-olejarz)
 
+&nbsp;
 
 ### Technologies and tools
 
