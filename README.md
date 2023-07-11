@@ -6,7 +6,7 @@
 
 ## 👋 Hey, my name is Mateusz
 
-I'm determined Front-End Developer with nearly four years of commercial experience building **Web apps with React** and **Mobile apps with React Native**. 
+I'm a creative Front-End Developer with nearly four years of commercial experience building **Web apps with React** and **Mobile apps with React Native**. 
 Currently in the process of becoming a Full-Stack Developer with Node.js.
 
 <br />
