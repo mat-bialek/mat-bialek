@@ -1,7 +1,7 @@
 <h1 align="right">Mateusz Olejarz</h1>
 <h3 align="right">With a passion for tailored solutions.</h3>
 
-[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="" />](mailto:mateusz.codes.web@gmail.com)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="" />](mailto:mateusz.d.olejarz@gmail.com)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="" />](https://linkedin.com/in/mat-olejarz)
 
 ## 👋 Hey, my name is Mateusz
