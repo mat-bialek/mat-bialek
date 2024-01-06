@@ -6,7 +6,7 @@
 
 ## 👋 Hey, my name is Mateusz
 
-I'm a creative Front-End Developer with nearly four years of commercial experience building **Web apps with React** and **Mobile apps with React Native**. 
+Results-driven Frontend Developer with over 4 years of delivering high-quality solutions and exceeding client expectations, with expertise in React.js.
 Currently in the process of becoming a Full-Stack Developer with Node.js.
 
 <br />
@@ -15,8 +15,8 @@ Currently in the process of becoming a Full-Stack Developer with Node.js.
   🎓 Languages and Tools:
 </h3>
 <div align="center">
-  <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/683a5e3b-6a16-43e5-a55c-f50a19e67ba2" width="36px" alt="" />
-  <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/0aa6cbc6-1ba3-4fc0-802c-34ef3573ae28" width="36px" alt="" />
+  <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/683a5e3b-6a16-43e5-a55c-f50a19e67ba2" width="36px" alt="JavaScript" />
+  <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/0aa6cbc6-1ba3-4fc0-802c-34ef3573ae28" width="36px" alt="TypeScript" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/dcd725ba-b7f7-4a40-9737-eff6df229634" width="36px" alt="" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/20b48708-0edd-4ad5-9ee5-6bb779eb06fe" width="36px" alt="" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/12bb119c-1814-410b-8e47-4dd680af8329" width="36px" alt="" />
