@@ -1,4 +1,4 @@
-<h1 align="right">Mateusz Olejarz</h1>
+<h1 align="right">Mateusz Białek</h1>
 <h3 align="right">With a passion for tailored solutions.</h3>
 
 [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="" />](mailto:mateusz.d.olejarz@gmail.com)
