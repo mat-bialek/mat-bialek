@@ -5,7 +5,7 @@
 
 ## 👋 Hi, my name is Mateusz
 
-I'm a Senior Frontend Developer with over 6 years of delivering high-quality solutions and exceeding client expectations.
+I'm a Senior Frontend Developer with over 7 years of delivering high-quality solutions and exceeding client expectations.
 <br />
 Proficient with JavaScript, TypeScript, and Frontend Frameworks, currently in the process of becoming a Full-Stack Developer.
 
@@ -53,7 +53,6 @@ Proficient with JavaScript, TypeScript, and Frontend Frameworks, currently in th
   🛠️ Currently improving in:
 </h3>
 <div align="center">
-  <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/2b3c6879-4bc8-4c5e-82fb-ed1fb309fc6e" width="36px" alt="HTMX" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/ecb00ddf-c521-4f3b-892c-59063ba2519d" width="36px" alt="Node.js" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/aa66dba5-76ee-4cd7-8f65-e89d70ed90c8" width="36px" alt="Express" />
   <img src="https://github.com/mateusz-olejarz/mateusz-olejarz/assets/32839483/5475cb37-87f3-460b-9594-d1411d22f548" width="36px" alt="AWS" />
