@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-11-12T00:00:00.000Z",
+  "repos": { "total": 6, "public": 4, "private": 2, "failed": 0 },
+  "languages": [
+    { "name": "TypeScript", "pct": 58.4 },
+    { "name": "JavaScript", "pct": 16.2 },
+    { "name": "CSS / SCSS", "pct": 12.1 },
+    { "name": "HTML", "pct": 6.3 },
+    { "name": "Python", "pct": 3.4 },
+    { "name": "Other", "pct": 3.6 }
+  ],
+  "libraries": [
+    { "name": "react", "repos": 6 },
+    { "name": "typescript", "repos": 6 },
+    { "name": "vite", "repos": 4 },
+    { "name": "next", "repos": 3 },
+    { "name": "tailwindcss", "repos": 3 },
+    { "name": "@tanstack/react-query", "repos": 3 },
+    { "name": "express", "repos": 2 }
+  ]
+}

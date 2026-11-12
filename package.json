@@ -1,0 +1,28 @@
+{
+  "name": "github-profile",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "fetch": "tsx src/fetch-stack.ts",
+    "build": "tsx src/build.ts",
+    "update": "npm run fetch && npm run build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/fontkit": "^2.0.9",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "fontkit": "^3.0.0",
+    "subset-font": "^2.9.0"
+  }
+}

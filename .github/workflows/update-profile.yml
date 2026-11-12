@@ -1,0 +1,41 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "23 4 * * *" # daily, 04:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["profile.config.ts", "src/**", "data/stack.sample.json", "package-lock.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Fetch stack data
+        run: npm run fetch
+        continue-on-error: true # keep yesterday's numbers if GitHub hiccups
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          STACK_PRIVATE_REPOS: ${{ secrets.STACK_PRIVATE_REPOS }}
+      - run: npm run build
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets data
+          git diff --cached --quiet || (git commit -m "chore: refresh profile" && git push)
