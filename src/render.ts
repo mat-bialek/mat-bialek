@@ -203,12 +203,15 @@ function jsonLines(obj: Record<string, string | string[]>, t: Theme, maxW: numbe
       if (cur.length && width(render([...cur, j], groups.length === 1)) > maxW) groups.push([j]);
       else cur.push(j);
     });
-    // No orphans: a lone last item pulls the previous line's last item down with it.
+    // Even out the last two lines: pull items down while the last line stays no wider than
+    // the one above it (avoids orphans like a lone "AG Grid").
     const lastG = groups[groups.length - 1]!;
     const prevG = groups[groups.length - 2];
-    if (prevG && prevG.length > 1 && lastG.length === 1) {
+    while (prevG && prevG.length > 1) {
       const moved = prevG[prevG.length - 1]!;
-      if (width(render([moved, ...lastG], false)) <= maxW) lastG.unshift(prevG.pop()!);
+      const isFirst = groups.length === 2;
+      if (width(render([moved, ...lastG], false)) > width(render(prevG.slice(0, -1), isFirst))) break;
+      lastG.unshift(prevG.pop()!);
     }
     groups.forEach((g, i) => lines.push(render(g, i === 0)));
   });
