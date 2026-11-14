@@ -188,17 +188,29 @@ function jsonLines(obj: Record<string, string | string[]>, t: Theme, maxW: numbe
     if (width(one) <= maxW) return void lines.push(one);
     // Too wide: continue items on new lines aligned after the "[".
     const indent = " ".repeat(head.reduce((a, x) => a + x.text.length, 0) + 1);
-    let line: Tok[] = [...head, P("[")];
-    value.forEach((v, j) => {
+    const piece = (j: number): Tok[] => {
       const last = j === value.length - 1;
-      const piece = [S(v), last ? P("]") : P(","), ...(last ? comma : [])];
-      const sep = line.length > head.length + 1 ? [P(" ")] : [];
-      if (line.length > head.length + 1 && width([...line, ...sep, ...piece]) > maxW) {
-        lines.push(line);
-        line = [P(indent), ...piece];
-      } else line.push(...sep, ...piece);
+      return [S(value[j]!), last ? P("]") : P(","), ...(last ? comma : [])];
+    };
+    const render = (group: number[], first: boolean): Tok[] => [
+      ...(first ? [...head, P("[")] : [P(indent)]),
+      ...group.flatMap((j, k) => (k ? [P(" "), ...piece(j)] : piece(j))),
+    ];
+    // Greedy fill: each group holds the indices of the items on one line.
+    const groups: number[][] = [[]];
+    value.forEach((_, j) => {
+      const cur = groups[groups.length - 1]!;
+      if (cur.length && width(render([...cur, j], groups.length === 1)) > maxW) groups.push([j]);
+      else cur.push(j);
     });
-    lines.push(line);
+    // No orphans: a lone last item pulls the previous line's last item down with it.
+    const lastG = groups[groups.length - 1]!;
+    const prevG = groups[groups.length - 2];
+    if (prevG && prevG.length > 1 && lastG.length === 1) {
+      const moved = prevG[prevG.length - 1]!;
+      if (width(render([moved, ...lastG], false)) <= maxW) lastG.unshift(prevG.pop()!);
+    }
+    groups.forEach((g, i) => lines.push(render(g, i === 0)));
   });
   lines.push([P("}")]);
   return lines;
