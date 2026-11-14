@@ -15,19 +15,19 @@ export default defineConfig({
     client: {
       label: "01 · CLIENT",
       title: "React layer",
-      chips: ["React", "Next.js", "TypeScript", "Redux", "Tailwind", "Vitest"],
+      chips: ["React", "Next.js", "TypeScript", "TanStack Query", "Redux Toolkit", "Tailwind"],
       status: { text: "production · 7+ yrs", state: "done" },
     },
     api: {
       label: "02 · API",
       title: "Node layer",
-      chips: ["Node.js", "Express", "REST", "PostgreSQL"],
+      chips: ["Node.js", "NestJS", "Prisma", "PostgreSQL", "REST / OpenAPI"],
       status: { text: "in progress", state: "progress" },
     },
     infra: {
       label: "03 · INFRA",
       title: "Ship it",
-      chips: ["Docker", "GitHub Actions", "AWS", "Linux"],
+      chips: ["Docker", "AWS", "GitHub Actions", "Linux"],
       status: { text: "in progress", state: "progress" },
     },
   },
@@ -36,11 +36,11 @@ export default defineConfig({
     name: "Mateusz Białek",
     role: "Senior Frontend Developer",
     focus: "fullstack",
-    frontend: ["React", "Next.js", "TypeScript", "JavaScript"],
-    backend: ["Node.js", "Express", "NestJS", "PostgreSQL"],
-    testing: ["Vitest", "React Testing Library", "Jest", "Cypress", "Playwright"],
-    devops: ["Docker", "GitHub Actions", "AWS"],
-    design: ["Figma", "Storybook"],
+    frontend: ["React", "Next.js", "TypeScript", "TanStack Query", "Redux Toolkit", "AG Grid"],
+    backend: ["Node.js", "NestJS", "Express", "tRPC", "REST / OpenAPI", "Prisma", "PostgreSQL", "Zod", "JWT / OAuth", "Redis"],
+    testing: ["Vitest", "Jest", "React Testing Library", "Playwright", "Cypress"],
+    devops: ["Docker", "GitHub Actions", "AWS", "Vercel", "Sentry"],
+    ui: ["Figma", "Tailwind", "MUI", "shadcn/ui", "Storybook", "WCAG / a11y"],
     offline: "/offline",
   },
 
@@ -53,7 +53,7 @@ export default defineConfig({
     excludeLanguages: ["Dockerfile", "Makefile", "Batchfile"],
     mergeLanguages: { SCSS: "CSS / SCSS", CSS: "CSS / SCSS", Sass: "CSS / SCSS" },
     topLanguages: 5,
-    topLibs: 8,
+    topLibs: 6,
   },
 
   offline: [
@@ -65,16 +65,16 @@ export default defineConfig({
   ],
 
   projects: [
-    {
-      name: "TODO Project name",
-      description: "TODO What it does in one line",
-      stack: [{ label: "React", layer: "client" }, { label: "Express", layer: "server" }, { label: "Docker", layer: "infra" }],
-    },
-    {
-      name: "TODO Project name",
-      description: "TODO What it does in one line",
-      stack: [{ label: "Next.js", layer: "client" }, { label: "Node.js", layer: "server" }, { label: "AWS", layer: "infra" }],
-    },
+    // {
+    //   name: "TODO Project name",
+    //   description: "TODO What it does in one line",
+    //   stack: [{ label: "React", layer: "client" }, { label: "Express", layer: "server" }, { label: "Docker", layer: "infra" }],
+    // },
+    // {
+    //   name: "TODO Project name",
+    //   description: "TODO What it does in one line",
+    //   stack: [{ label: "Next.js", layer: "client" }, { label: "Node.js", layer: "server" }, { label: "AWS", layer: "infra" }],
+    // },
   ],
 
   links: {
