@@ -49,7 +49,16 @@ export default defineConfig({
     repos: [
       // "mat-bialek/some-public-repo",
     ],
-    excludeLibs: ["react-dom", "react-scripts", "react-redux", "@fontsource/*", "@babel/*", "@types/*", "eslint*", "@eslint/*", "prettier*", "typescript-eslint", "globals"],
+    excludeLibs: [
+      // noise next to react / tooling
+      "react-dom", "react-scripts", "react-redux", "lodash", "@babel/*", "@fontsource/*",
+      // kept only @testing-library/react
+      "@testing-library/jest-dom", "@testing-library/user-event",
+      // icons, styles and peer deps of MUI / shadcn / Clerk
+      "@material-ui/icons", "@material-ui/styles", "@mui/icons-material", "@emotion/*", "@radix-ui/*", "@clerk/themes",
+      // types and lint
+      "@types/*", "eslint*", "@eslint/*", "prettier*", "typescript-eslint", "globals",
+    ],
     excludeLanguages: ["Dockerfile", "Makefile", "Batchfile"],
     mergeLanguages: { SCSS: "CSS / SCSS", CSS: "CSS / SCSS", Sass: "CSS / SCSS" },
     topLanguages: 5,
