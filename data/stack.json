@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:37:39.084Z",
+  "generatedAt": "2026-11-14T22:40:32.358Z",
   "repos": {
     "total": 12,
     "public": 0,
@@ -46,15 +46,7 @@
       "repos": 3
     },
     {
-      "name": "@testing-library/jest-dom",
-      "repos": 3
-    },
-    {
       "name": "@testing-library/react",
-      "repos": 3
-    },
-    {
-      "name": "@testing-library/user-event",
       "repos": 3
     },
     {
@@ -62,12 +54,20 @@
       "repos": 2
     },
     {
-      "name": "@material-ui/icons",
+      "name": "express",
       "repos": 2
     },
     {
-      "name": "express",
+      "name": "next",
       "repos": 2
+    },
+    {
+      "name": "react-router-dom",
+      "repos": 2
+    },
+    {
+      "name": "@apollo/client",
+      "repos": 1
     }
   ]
 }
