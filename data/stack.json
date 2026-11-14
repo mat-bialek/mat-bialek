@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:22:52.732Z",
+  "generatedAt": "2026-11-14T22:28:20.427Z",
   "repos": {
     "total": 12,
     "public": 0,
@@ -34,24 +34,32 @@
       "repos": 8
     },
     {
-      "name": "react-dom",
-      "repos": 7
-    },
-    {
-      "name": "react-redux",
-      "repos": 4
-    },
-    {
-      "name": "react-scripts",
-      "repos": 4
-    },
-    {
       "name": "styled-components",
       "repos": 4
     },
     {
       "name": "tailwindcss",
       "repos": 4
+    },
+    {
+      "name": "@reduxjs/toolkit",
+      "repos": 3
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "repos": 3
+    },
+    {
+      "name": "@testing-library/react",
+      "repos": 3
+    },
+    {
+      "name": "@testing-library/user-event",
+      "repos": 3
+    },
+    {
+      "name": "@material-ui/core",
+      "repos": 2
     }
   ]
 }
