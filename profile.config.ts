@@ -49,11 +49,11 @@ export default defineConfig({
     repos: [
       // "mat-bialek/some-public-repo",
     ],
-    excludeLibs: ["react-dom", "react-scripts", "react-redux", "@types/*", "eslint*", "@eslint/*", "prettier*", "typescript-eslint", "globals"],
+    excludeLibs: ["react-dom", "react-scripts", "react-redux", "@fontsource/*", "@babel/*", "@types/*", "eslint*", "@eslint/*", "prettier*", "typescript-eslint", "globals"],
     excludeLanguages: ["Dockerfile", "Makefile", "Batchfile"],
     mergeLanguages: { SCSS: "CSS / SCSS", CSS: "CSS / SCSS", Sass: "CSS / SCSS" },
     topLanguages: 5,
-    topLibs: 8,
+    topLibs: 10,
   },
 
   offline: [
